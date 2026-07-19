@@ -1,0 +1,13 @@
+name="Smit"
+age=21
+city="rohtak"
+print(name)
+print(age)
+print(age,city) 
+a1=5
+print(type(name))
+print(type(age))
+print(type(city))
+print(a1==5)
+is_student=True
+print(type(is_student))
