@@ -1,8 +1,7 @@
-num=int(input("enter ur np.:"))
-i=1
-count=0
-while i<=num:
-    if num%i==0:
-        count+=1
-    i+=1
-print(count)
+def merge_two(lst1,lst2):
+    return lst1+lst2
+
+num=[1,2,3]
+num2=[5,4,5,6]
+
+print(merge_two(num, num2))
